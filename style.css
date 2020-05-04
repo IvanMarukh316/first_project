@@ -19,7 +19,7 @@ p {
     margin-bottom: 0px;
 }
 
-img {
+img.introduction_image {
     float: left;
     margin-right: 48px;
 }
@@ -110,14 +110,43 @@ p.hero_block_two_text {
 
 .the_team {
     max-width: 1219px;
-    flex-wrap: wrap;
-    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .member_of_the_team {
-    margin-right: 0px;
     width: 350px;
     height: 283px;
+}
+
+.full_name {
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+
+.position {
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+
+img.img_the_team {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
 
 }
 
